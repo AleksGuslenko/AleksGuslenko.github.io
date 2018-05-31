@@ -1,0 +1,40 @@
+#desktop-menu {
+    width: 80%;
+    height: 4.5em;
+    margin: 0;
+    position:  absolute;
+    top:      0;
+    right:  0; 
+}
+
+#desktop-menu ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 3rem;
+    margin: 0;
+}
+
+.dropdown-menu {
+    padding: 1em 0;
+    margin: 0.5em 0;
+    text-align: right;
+}
+
+/* .dropdown-menu li {
+    
+} */
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: brown;
+}
+
+.dropdown-menu a:hover {
+    color: chocolate;
+}
+
+@media (max-width: 460px) {
+    #desktop-menu{
+        display: none;
+    }
+}

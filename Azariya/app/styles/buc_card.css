@@ -1,0 +1,60 @@
+
+.business_card {
+    width: 100%;
+    background:  url("images/E1i2dtQnRiY.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.business_foto {
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    text-align: left;
+    width: 5em;
+    height: 5em;
+    padding: 4em 2em 0 ;
+    font-size: 80%;
+}
+
+.content_h1 {
+    padding: 0;
+    margin: 0;
+    color: rgb(247, 134, 73);
+}
+
+.content_h2 {
+    padding: 0;
+    margin: 0;
+    color: rgb(240, 188, 17);
+}
+
+.content_p {
+    color: rgb(254, 254, 254);
+    width: 11em;
+}
+
+.services {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 15% 2% 0 0;
+    font-size: 45%;
+    float: right;
+}
+
+.services_h3 {
+    color: rgb(250, 8, 8);
+    width: 14em;
+}
+
+.information {
+    height: 10rem;
+    width: 100%;
+}
+
+.information_h3 {
+    color: rgb(243, 241, 241);
+    font-size: 100%;
+}
