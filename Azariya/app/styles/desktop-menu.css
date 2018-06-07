@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 #desktop-menu {
     width: 80%;
     height: 4.5em;
@@ -25,15 +26,19 @@
 } */
 
 .dropdown-menu a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: brown;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    color: #e9e5e5;
 }
 
 .dropdown-menu a:hover {
-    color: chocolate;
+    color: rgb(172, 96, 96);
 }
 
-@media (max-width: 460px) {
+@media (max-width: 650px) {
     #desktop-menu{
         display: none;
     }

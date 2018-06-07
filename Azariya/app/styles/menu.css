@@ -3,14 +3,14 @@
     -moz-border-sizing: border-box;
     border-spacing: border-box;
   } */
-  @media (min-width: 460px){
+  @media (min-width: 650px){
   .memu-container {
     display: none;
 
 }
   }
   
-  @media (max-width: 460px) {
+  @media (max-width: 650px) {
   .memu-container {
     width: 200px;
     margin: 17px auto;
