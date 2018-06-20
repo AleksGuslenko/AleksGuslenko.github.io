@@ -31,7 +31,7 @@ h1, h2, h3, p {
 
 .container_01 {
     /* background-color: #ffffff52; */
-    height: 600px;  
+    height: 100vh;  
     position: relative;
 }
 
