@@ -1,0 +1,19 @@
+.icons {
+    padding: 20px;
+    list-style: none;
+}
+
+.icons li {
+    display: inline-block;
+}
+
+.icons_1 svg{
+    margin: 0 10px;
+    fill: #00fac8;
+    width: 30px;
+    height: 30px;
+}
+
+.icons svg:hover {
+    fill: rgb(172, 96, 96);
+}

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
+@import 'icons.css';
+
 * {
     margin: 0;
     padding: 0;
@@ -58,12 +60,12 @@ h1, h2, h3, p {
     height: 4vw;
     border-radius: 5vw;
     border: none;
-    background-color: aqua;
+    background-color: #00fac8;
     letter-spacing: 0.7%;
 }
 
 .button:hover {
-    background-color: cadetblue;
+    background-color: #5f9ea0;
 }
 
 .container_02 {
@@ -155,15 +157,15 @@ hr {
 }
 
 input {
-    margin: 2rem 0;
-    display: block;
-    background-color: #000;
-    width: 200px;
-    height: 0.1rem;
+    /* margin: 2rem 0; */
+    /* display: block; */
+    /* background-color: #000; */
+    /* width: 200px; */
+    /* height: 0.1rem; */
 }
 
 .infa_p {
-    margin: 3rem 0 0;
+    /* margin: 3rem 0 0; */
     font-size: 0.75rem;
 }
 
@@ -214,7 +216,8 @@ body {
     background-repeat: no-repeat;
 }
 .container_01 {
-    height: 600px;  
+    /* width: 100%; */
+    /* height: 600px;   */
     position: relative;
 }
 
