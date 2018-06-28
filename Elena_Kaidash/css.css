@@ -49,6 +49,7 @@
 /* desktop*/
 
 #desktop-menu {
+   font-family: 'Roboto', sans-serif;
     width: 50%;
     height: 3.5em;
     margin: 0;
@@ -71,7 +72,7 @@
 }
 
 .dropdown-menu a {
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     /* text-transform: uppercase; */
     letter-spacing: 0.1rem;
@@ -84,7 +85,7 @@
     color: rgb(172, 96, 96);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 779px) {
     #desktop-menu{
         display: none;
     }
@@ -97,22 +98,22 @@
     -moz-border-sizing: border-box;
     border-spacing: border-box;
   } */
-  @media (min-width: 800px){
-    .memu-container {
+  @media (min-width: 780px){
+    .menu-container {
       display: none;
   
-  }
     }
+  }
     
-    @media (max-width: 800px) {
-    .memu-container {
+    @media (max-width: 780px) {
+    .menu-container {
       width: 200px;
       margin: 10px auto;
       position:       absolute;
       top:            0;
       right:  0; 
     }
-    .memu-container > ul {
+    .menu-container > ul {
       width: 90px;
       list-style: none;
       padding: 0;
@@ -127,6 +128,7 @@
       text-decoration: none;
     }
     .dropdown [data-toggle="dropdown"] {
+      font-family: 'Roboto', sans-serif;
       display: block;
       color: white;
       /* background: rgb(255, 48, 25); */

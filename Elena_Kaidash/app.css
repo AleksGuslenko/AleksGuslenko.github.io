@@ -61,7 +61,7 @@ h1, h2, h3, p {
     border-radius: 5vw;
     border: none;
     background-color: #00fac8;
-    letter-spacing: 0.7%;
+    letter-spacing: 0.4vw;
 }
 
 .button:hover {
@@ -240,12 +240,12 @@ body {
 }
 
 .button {
-    width: 24vw;
-    height: 6vw;
+    width: 30vw;
+    height: 8vw;
     border-radius: 5vw;
     border: none;
     background-color: aqua;
-    letter-spacing: 0.5em;    
+    letter-spacing: 0.2em;    
 }
 
 .button:hover {
