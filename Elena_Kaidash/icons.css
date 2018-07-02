@@ -17,3 +17,11 @@
 .icons svg:hover {
     fill: rgb(172, 96, 96);
 }
+
+@media (max-width: 750px) {
+    .icons_1 svg{
+        margin: 0 5px;;
+        width: 30px;
+        height: 30px;
+    }
+}

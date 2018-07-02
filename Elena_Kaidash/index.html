@@ -3,15 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script> -->
+    crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
   <title>AZария</title>
   <link rel="stylesheet" href="css.css">
   <link rel="stylesheet" href="app.css">
-  <!-- <script src="/app.js"></script> -->
-  <!-- <script>require('initialize');</script> -->
 </head>
 
 <body>
@@ -33,7 +36,7 @@
     </symbol>
   </svg>
   <a name="titul"></a>
-  <header id="head">
+  <!-- <header id="head">
     <div id="header">
       <a href="#titul">
         <div class="header-left">
@@ -80,7 +83,95 @@
         </ul>
       </div>
     </div>
+  </header> -->
+
+  <!-- <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-bbrand" href="#">
+          <div class="header-left">
+            <h2 id="logo">A
+              <span>Z</span>apия</h2>
+            <p>aрт-студия</p>
+          </div>
+        </a>
+      </div>
+      <div class="collapse navbar-colapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#titul">Главная</a>
+          </li>
+          <li>
+            <a href="#">Мастера</a>
+          </li>
+          <li>
+            <a href="#service">Услуги</a>
+          </li>
+          <li>
+            <a href="#contact">Контакт</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <header id="head">
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="#titul">
+          <div class="header-left">
+            <h2 id="logo">A<span>Z</span>apия</h2>
+            <p>aрт-студия</p>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#titul">Главная
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">О Нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Мастера
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Кайдаш Елена</a>
+                <a class="dropdown-item" href="#">Столярова Елена</a>
+                <a class="dropdown-item" href="#">Гусленко Алёна</a>
+                <a class="dropdown-item" href="#">Березуцкая Лида</a>
+                <a class="dropdown-item" href="#">Мельник Наташа</a>
+                <a class="dropdown-item" href="#">Чаплинская Алёна</a>
+                <a class="dropdown-item" href="#">Багира Елена</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
+
   <div class="wrapper">
     <div class="container_01">
       <div class="front">
@@ -145,7 +236,7 @@
   </div>
   <a name="contact"></a>
   <div class="container_05 ">
-    <hr align="center" size="2" color="white">
+    <!-- <hr align="center" size="2" color="white"> -->
     <div class="footer">
       <h1>
         Контакты
@@ -186,9 +277,9 @@
           </li>
         </ul>
         <p class="infa_p">
-          © Untitled. All rights reserved. Images by
-          <a href="#">Unsplash</a> and
-          <a href="#">Linea</a>.
+          2018 © Все права защищены.
+          <a href="#">8Pcode</a> &
+          <a href="#">co</a>.
         </p>
       </div>
     </div>
