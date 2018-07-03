@@ -16,11 +16,11 @@
 .header-left p {
     position: absolute;
     left: 80px;
-    top: 32px;
+    top: 33px;
 }
 
 #logo span {
-    color: #B30B1F;
+    color: #b30b1f;
 }
 
 #header {
