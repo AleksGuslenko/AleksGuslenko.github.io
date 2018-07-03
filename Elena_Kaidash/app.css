@@ -173,15 +173,18 @@ html {
 
 .img {
     display: inline-block;
-    padding: 2rem;
+    padding: 0;
     margin-top: 0; 
 }
 
-.img_01{
+.img_01,
+.img_02 {
     margin-top: 0;
     float: none;
     margin-left:  0;
     margin-right: 0;
+    width: 300px;
+    padding: 2rem;
 }
 
 .service {
@@ -198,15 +201,6 @@ html {
     float: none;
     text-align: center;
     margin-left: 0;
-}
-
-
-
-.img_02{
-    margin-top: 0;
-    float: none;
-    margin-left:  0;
-    margin-right: 0;
 }
 
 .service_02 {
@@ -241,7 +235,8 @@ html {
     }
     .img_01,
     .img_02 {
-        width: 300px;
+        width: 250px;
+        padding: 2rem;
     }
     .header-left p {
         position: absolute;
