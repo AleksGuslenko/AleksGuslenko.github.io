@@ -35,7 +35,6 @@ h1, h2, h3, p {
 }
 
 .container_01 {
-    /* height: 100vh;   */
     position: relative;
 
 }
@@ -43,17 +42,20 @@ h1, h2, h3, p {
 .front {
     top: 15%;
     right:0;
-    padding: 15% 30% 4%;
+    padding: 20% 30% 2%;
 }
 
 .text01 {
     font-size: 3.5rem;
     letter-spacing: 0.45rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
+    margin: 0;
 }
 
 .text02 {
+    margin: 2rem 0 0;
     line-height: 2rem;
+    font-size: 1.3rem;
 }
 
 .button {
@@ -73,16 +75,16 @@ h1, h2, h3, p {
 
 .container_02 {
     background-color: rgb(46, 50, 59);
-    height: 350px;
+    display: flex;
+    align-items: center;
 }
 
 .img {
     display: inline-block;
-    padding: 4rem 5rem;
+    padding: 5rem;
 }
 
 .img_01{
-    margin-left: 20%;
     float: left;
 }
 
@@ -94,8 +96,7 @@ h1, h2, h3, p {
 }
 
 .service_01 {
-    padding: 6rem 1rem;
-    margin-right: 15%;
+    padding: 2rem;
     float: right;
 }
 
@@ -109,29 +110,30 @@ h1, h2, h3, p {
 
 .container_03 {
     background-color: rgb(51, 56, 66);
-    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
 .img_02{
-    margin-right: 20%;
     float: right;
 }
 
 .service_02 {
     text-align: right;
-    padding: 6rem 1rem;
-    margin-left: 15%;
+    padding: 2rem;
     float: left;
 }
 
 .container_04 {
     background-color:rgb(56, 62, 74);
-    height: 350px;
+    display: flex;
+    align-items: center;
 }
 
-.container_05 {
+.container_08 {
     background-color: rgba(255, 255, 255, 0.219);
-    height: calc(100vh - 4rem);
+    min-height: calc(100vh - 4rem);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -140,7 +142,7 @@ h1, h2, h3, p {
 }
 
 .footer {
-    width: 30%;
+    width: 30rem;
     margin: 0 30% 2%;
 }
 
@@ -168,47 +170,25 @@ hr {
 }
 
 @media (max-width: 1000px) {
-    #desktop-menu {
-        right:  20%; 
-    }
-    #desktop-menu ul li {
-        padding-right: 1.5rem;
-    }
     .img {
-        padding: 4rem 3rem;
-    }
-    .img_01 {
-        margin-left: 10%;
+        padding: 2rem;
     }
     .service {
-        width: 40%;
+        width: 50%;
     }
     .service_01 {
-        padding: 4rem 2rem;
-        margin-right: 10%;
+        padding: 2rem;
     }
     .service_02 {
-        padding: 5rem 1rem;
-        margin-left: 10%;
+        padding: 2em;
     }
-    .img_02 {
-        margin-left: 10%;
-        
-    }
-
 }
 
 @media (max-width: 750px) {
 html {
     font-size: 12pt;
 }
-body {
-    background-image:  url("images/main-img.jpg") ;
-    background-position: 50% 3rem;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .container_01 {
     position: relative;
 }
@@ -222,7 +202,7 @@ body {
 .text01 {
     font-size: 3.5rem;
     letter-spacing: 0.45rem;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
 }
 
 .text02 {
@@ -243,8 +223,8 @@ body {
 }
 
 .container_02 {
-    background-color: rgb(46, 50, 59);
-    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .img {
@@ -254,26 +234,30 @@ body {
 }
 
 .img_01{
-    margin-left: 0;
+    margin-top: 0;
     float: none;
+    margin-left:  0;
+    margin-right: 0;
 }
 
 .service {
     display: block;
-    width: 100%;
+    width: 80%;
     text-align: center;
     font-size: 1rem;
+    margin: 0;
 }
 
 .service_01 {
-    padding: 0 10% 4%;
     margin-right:  0;
+    padding: 0;
     float: none;
+    text-align: center;
+    margin-left: 0;
 }
 
 .container_03 {
     background-color: rgb(51, 56, 66);
-    height: 100%;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -286,22 +270,17 @@ body {
 }
 
 .service_02 {
-    padding: 0 10% 4%;
+    padding: 0;
     float: none;
     text-align: center;
     margin-left: 0;
-
+    margin: 4%;
 }
 
 .container_04 {
     background-color:rgb(56, 62, 74);
-    height: 100%;
-}
-
-.container_05 {
-    background-color: rgba(255, 255, 255, 0.219);
-    height: calc(100vh - 4rem);
-    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .footer {
@@ -323,5 +302,20 @@ body {
 }
 
 @media(max-width:320px) {
+    html {
+        font-size: 10pt;
+    }
+    .img_01,
+    .img_02,
+    .img_03,
+    .img_04,
+    .img_05,
+    .img_06 {
+        width: 300px;
+    }
+    .header-left p {
+        position: absolute;
+        left: 70px;
+        top: 28px;
 
 }
