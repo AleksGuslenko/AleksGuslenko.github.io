@@ -1,0 +1,30 @@
+.biography {
+    background-image: url("images/son.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    text-align: center;
+}
+
+.biography-collor {
+    background: rgba(20, 216, 183, 0.5);
+    padding: 1%;
+}
+
+.section-name-text {
+    width: 80%;
+    margin:  2% 10%;
+}
+
+.section-name-text h3 {
+    color: rgb(255, 44, 79);
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.section-name-text p {
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
