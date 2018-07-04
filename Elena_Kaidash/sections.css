@@ -1,6 +1,6 @@
 .section-name {
     padding: 1rem;
-    background-color: rgba(174, 243, 220, 0.151);
+    background-color: rgb(41, 44, 52);
 }
 
 .section-name h2 {
@@ -51,6 +51,19 @@
 .container_cl06 {
     background-color:rgb(71, 80, 97);
 }
+
+.container_cl07 {
+    background-color:rgb(76, 86, 104);
+}
+
+.container_cl08 {
+    background-color:rgb(81, 92, 111);
+}
+
+.container_cl09 {
+    background-color:rgb(86, 98, 118);
+}
+
 
 .reverse {
     flex-direction: row-reverse;

@@ -57,13 +57,13 @@ h1, h2, h3, p {
     height: 5vw;
     border-radius: 5vw;
     border: none;
-    background-color: #00fac8;
+    background-color: #059679;
     letter-spacing: 0.4vw;
     margin: 1.5rem;
 }
 
 .button:hover {
-    background-color: #39fdd6;
+    background-color: #a70404ab;
 }
 
 .img {
@@ -89,10 +89,6 @@ h1, h2, h3, p {
 
 .service p{
     line-height: 1.5rem;
-}
-
-.img_02{
-    /* float: right; */
 }
 
 .service_02 {
@@ -161,15 +157,8 @@ html {
 .button {
     width: 40vw;
     height: 10vw;
-    border-radius: 5vw;
-    border: none;
-    background-color: #00fac8;
     letter-spacing: 0.2em;    
 }
-
-/* .button:hover {
-    background-color: cadetblue;
-} */
 
 .img {
     display: inline-block;
