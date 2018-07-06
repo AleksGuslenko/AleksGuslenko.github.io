@@ -87,3 +87,13 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+@media (max-width: 400px) {
+    .section-name h2{
+        font-size: 2rem;
+    }
+    .service h1 {
+        
+    }
+
+}

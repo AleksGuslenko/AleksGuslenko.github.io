@@ -1,3 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Превед медвед!');
+   var menuItems=$('.nav-hide');
+      menuItems.on('click', function() {
+      $('.collapse.navbar-collapse').removeClass('show')
+     });
 });
+
