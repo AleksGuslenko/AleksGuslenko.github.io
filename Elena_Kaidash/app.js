@@ -4,4 +4,3 @@ document.addEventListener('DOMContentLoaded', function () {
       $('.collapse.navbar-collapse').removeClass('show')
      });
 });
-
