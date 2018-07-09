@@ -138,6 +138,12 @@ h1, h2, h3, p {
         padding: 2em;
     }
 }
+@media (max-width: 920px) {
+    body {
+        /* background-size:  contain; */
+
+    }
+}
 
 @media (max-width: 750px) {
     html {
