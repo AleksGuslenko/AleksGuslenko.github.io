@@ -29,6 +29,20 @@
     max-width: 100%;
 }
 
+.section__link-parent{
+    position: relative;
+}
+
+.section__link {
+    position: absolute;
+    top: -4rem;
+}
+
+.container_cl00 {
+    background-color: rgb(46, 50, 59);
+
+}
+
 .container_cl01 {
     background-color: rgb(46, 50, 59);
 }
