@@ -137,9 +137,6 @@ h1, h2, h3, p {
         padding: 2em;
     }
 }
-@media (max-width: 920px) {
-
-}
 
 @media (max-width: 750px) {
     html {
@@ -169,31 +166,34 @@ h1, h2, h3, p {
         margin-left:  0;
         margin-right: 0;
         width: 300px;
-        padding: 2rem;
+        padding: 0 0 2rem;
     }
     
     .service {
         display: block;
         width: 80%;
-        text-align: center;
         font-size: 1rem;
         margin: 0;
     }
     
+    .service h2 {
+        text-align: center;
+
+    }
+
     .service_01 {
         margin-right:  0;
-        padding: 2rem;
+        padding: 2rem 0 0;
+        text-align: justify;
         float: none;
-        text-align: center;
         margin-left: 0;
     }
     
     .service_02 {
-        padding: 0;
+        padding: 2rem 0 0;
+        text-align: justify;
         float: none;
-        text-align: center;
         margin-left: 0;
-        margin: 4%;
     }
     
     .footer {
@@ -217,7 +217,7 @@ h1, h2, h3, p {
     .img_01,
     .img_02 {
         width: 250px;
-        padding: 2rem;
+        padding: 1rem;
     }
     .header-left p {
         position: absolute;
