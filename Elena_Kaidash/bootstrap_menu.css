@@ -48,8 +48,32 @@ li a {
     border-color: transparent;
 }
 
+.modal-content {
+    background-color: rgb(228, 228, 228);
+}
+
+.btn-success {
+    color: #fff;
+    background-color:#059679;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #a70404ab;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+    border-radius: 5rem;
+}
+
+.modal-dialog {
+    padding: 3rem 0 0;
+}
+
 @media (max-width: 980px) {
     .navbar-collapse {
         justify-content: flex-start;
+        position: relative;
+        width: 100%;
     }
 }
