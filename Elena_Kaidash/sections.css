@@ -84,6 +84,12 @@
     flex-direction: row-reverse;
 }
 
+@media (max-width: 920px){
+    .front {
+        background-color: rgba(75, 75, 75, 0.4);
+    }
+}
+
 @media (max-width: 750px) {
     .section-container,
     .reverse {

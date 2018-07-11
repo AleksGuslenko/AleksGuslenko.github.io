@@ -49,7 +49,7 @@ li a {
 }
 
 .modal-content {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228, .5);
 }
 
 .btn-success {
@@ -62,9 +62,9 @@ li a {
     background-color: #a70404ab;
 }
 
-.btn-group-lg > .btn, .btn-lg {
+/* .btn-group-lg > .btn, .btn-lg {
     border-radius: 5rem;
-}
+} */
 
 .modal-dialog {
     padding: 3rem 0 0;
